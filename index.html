@@ -15,17 +15,18 @@
         </div>
         <div class="bottom-div">
             <div class="search-div">
+                <div id="section-1">
                 <input type="search" id="myInput" name="search" placeholder="Search">
-                <button id="search-btn" type="submit" class="submit-btn">Search</button>
-                  
-                  <div class="menu-container">
-                    <div class="button-container">
-                       <a href="#/Action1" type="button" class="button">Sort A->Z</a>
-                       <a href="#/Action2" type="button" class="button">Sort Z->A</a>
-                       <a href="#/Action3" type="button" class="button">Sort By Marks</a>
-                       <a href="#/Action4" type="button" class="button">Sort By Passing</a>
-                       <a href="#/Action5" type="button" class="button">Sort By Class</a>
-                       <a href="#/Action6" type="button" class="button">Sort By Gender</a>
+                <button id="search-btn" class="submit-btn">Search</button>
+            </div>
+                  <div class="menu-container" >
+                    <div class="button-container" id="section-2">
+                       <a id="sortAZ"type="button" class="button">Sort A->Z</a>
+                       <a id="sortZA" type="button" class="button">Sort Z->A</a>
+                       <a id="sortByMarks" type="button" class="button">Sort By Marks</a>
+                       <a id="sortByPassing" type="button" class="button">Sort By Passing</a>
+                       <a id="sortByClass" type="button" class="button">Sort By Class</a>
+                       <a id="sortByGender" type="button" class="button">Sort By Gender</a>
                     
                     </div>
                 </div>
@@ -43,7 +44,7 @@
                             <th>Email</th>
                         </tr>
                     </thead>
-                    <tbody id="table-body">
+                    <tbody>
                         <!-- <tr >
                             <td>1</td>
                             <td>Avi Vasitha</td>
